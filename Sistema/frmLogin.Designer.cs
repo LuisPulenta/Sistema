@@ -46,7 +46,7 @@ namespace Sistema
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(238, 76);
+            this.label1.Location = new System.Drawing.Point(238, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 17);
             this.label1.TabIndex = 0;
@@ -54,14 +54,14 @@ namespace Sistema
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(305, 73);
+            this.txtUsuario.Location = new System.Drawing.Point(305, 54);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(168, 22);
             this.txtUsuario.TabIndex = 1;
             // 
             // txtClave
             // 
-            this.txtClave.Location = new System.Drawing.Point(305, 104);
+            this.txtClave.Location = new System.Drawing.Point(305, 93);
             this.txtClave.Name = "txtClave";
             this.txtClave.PasswordChar = '*';
             this.txtClave.Size = new System.Drawing.Size(168, 22);
@@ -70,7 +70,7 @@ namespace Sistema
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(238, 107);
+            this.label2.Location = new System.Drawing.Point(238, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 17);
             this.label2.TabIndex = 2;
@@ -133,6 +133,7 @@ namespace Sistema
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmLogin";

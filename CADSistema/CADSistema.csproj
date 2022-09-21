@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CADPermisoRol.cs" />
     <Compile Include="CADUsuario.cs" />
     <Compile Include="DSSistema.Designer.cs">
       <AutoGen>True</AutoGen>

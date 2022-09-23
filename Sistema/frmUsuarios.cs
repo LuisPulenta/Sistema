@@ -239,5 +239,14 @@ namespace Sistema
             VerificarPermisos();
             dgvDatos.AutoResizeColumns();
         }
+
+        private void bindingNavigatorSearchItem_Click(object sender, EventArgs e)
+        {
+            frmBusquedaUsuario miBusqueda = new frmBusquedaUsuario();
+            miBusqueda.ShowDialog();
+            if (miBusqueda.IDElegido == "") return;
+            int position = usuarioBindingSource.Find("IDUsuario", miBusqueda.IDElegido);
+            usuarioBindingSource.Position = position;
+        }
     }
 }
